@@ -1,5 +1,5 @@
 # basic container
-FROM alpine:3.12
+FROM alpine:3.13
 
 # labels
 LABEL maintainer "Daniel Muehlbachler-Pietrzykowski daniel.muehlbachler@niftyside.com"
