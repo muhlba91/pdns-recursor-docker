@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 4.4.2-r1-2
+ - disable daemon
+
 ## 4.4.2-r1-1
  - disable guardian
 
