@@ -27,6 +27,6 @@ export TZ=UTC LANG=C LC_ALL=C
 trap "rec_control quit" SIGHUP SIGINT SIGTERM
 
 # run the server
-pdns_recursor "$@" &
+pdns_recursor --config-dir=/etc/powerdns "$@" &
 
 wait

@@ -18,7 +18,7 @@ RUN apk update \
     pdns-recursor=$POWERDNS_VERSION \
     pdns-recursor-doc=$POWERDNS_VERSION \
   && rm -rf /var/cache/apk/* \
-  && mkdir -p /etc/pdns/conf.d
+  && mkdir -p /var/run/pdns-recursor
 
 # assets
 ADD assets/recursor.conf /etc/powerdns/
